@@ -19,11 +19,10 @@ class AppAsset extends AssetBundle
     public $baseUrl = '@web';
 
     public $css = [
-//        'css/bootstrap.css',
+
         'css/site.css',
         'css/jcarousel.basic.css',
-        'css/contact-buttons.css'
-//        'css/style.css'
+        'css/contact-buttons.css',
     ];
 
     public $js = [
