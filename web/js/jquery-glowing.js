@@ -48,7 +48,7 @@
       }, opts.DURATION);
     }
       function startFade() {
-          $(this).stop().animate({
+          $(this).start().animate({
               color: $(this).data('glow.originColor'),
               textShadow: {
                   begin: false,
