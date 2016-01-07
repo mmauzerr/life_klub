@@ -25,14 +25,14 @@ $config = [
             'class' => 'yii\swiftmailer\Mailer',
             'viewPath' => 'app/mail',
             'useFileTransport' => false,
-//            'transport' => [
-//              'class' => 'Swift_SmtpTransport',
-//              'host' => 'smtp.gmail.com',
-//              'username' => 'mmauzerr@gmail.com',
-//              'password' => 'nenadpesic976',
-//              'port' => '587',
-//              'encryption' => 'tls',
-//         ],
+            'transport' => [
+              'class' => 'Swift_SmtpTransport',
+              'host' => 'smtp.gmail.com',
+              'username' => 'mmauzerr@gmail.com',
+              'password' => 'nenadpesic976',
+              'port' => '587',
+              'encryption' => 'tls',
+         ],
         ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
