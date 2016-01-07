@@ -66,7 +66,7 @@ use dosamigos\google\maps\Map;
                         <?php if (Yii::$app->session->hasFlash('contactFormSubmitted')): ?>
 
                             <div class="alert alert-success col-lg-12 text-center">
-                                Uspesno ste nas kontaktirali.<br />Uskor ce te dobiti odgovor
+                                Uspešno ste nas kontaktirali.<br />Uskoro ćete dobiti odgovor.
                             </div>
 
                         <?php else: ?>
@@ -112,7 +112,7 @@ use dosamigos\google\maps\Map;
     </div>
 
     <div class="text-center">
-        <p ><a class="btn btn-lg btn-default" style="color:gray;margin-right: 30%;margin-top: -50px" href="/site/index">Vrati Nazad</a></p>
+        <p ><a class="btn btn-lg btn-default" style="color:gray;margin-right: 30%;margin-top: -20px" href="/site/index">Vrati Nazad</a></p>
     </div>
     <span class="clearfix"></span>
 </div>
