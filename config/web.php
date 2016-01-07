@@ -26,12 +26,12 @@ $config = [
             'transport' => [
               'class' => 'Swift_SmtpTransport',
               'host' => 'localhost',
-              'username' => 'root',
-              'password' => 'zxzx',
+              'username' => 'mmauzerr',
+              'password' => 'nenadpesic976',
               'port' => '587',
               'encryption' => 'tls',
          ],
-            'useFileTransport' => false,
+            'useFileTransport' => true,
         ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
