@@ -23,7 +23,7 @@ $config = [
         ],
         'mailer' => [
             'class' => 'yii\swiftmailer\Mailer',
-            'viewPath' => 'app/mail',
+            'viewPath' => '@app/mail',
             'useFileTransport' => false,
         ],
         'log' => [
