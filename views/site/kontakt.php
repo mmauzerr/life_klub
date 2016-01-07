@@ -64,7 +64,7 @@ use dosamigos\google\maps\Map;
 
                     <div class="site-contact">
                         <?php if (Yii::$app->session->hasFlash('contactFormSubmitted')): ?>
-                            <div style="padding-bottom: 50%">
+                            <div style="padding-bottom: 80%">
                                 <div class="alert alert-success col-lg-12 text-center">
                                     Uspešno ste nas kontaktirali.<br />Uskoro ćete dobiti odgovor.
                                 </div>
