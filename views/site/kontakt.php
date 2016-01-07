@@ -14,7 +14,7 @@ use dosamigos\google\maps\Map;
 <div class="col-lg-12">
     <span id="kontakt"></span>
     <h2 class="font-effect-emboss" style="color: #7f7f7f;font-family: 'Francois One', sans-serif;margin-left:21%;padding-top:50px;font-size:2.9em">KONTAKT</h2><br />
-    <div id="nen-contact" style="margin-bottom:30px;border:none">
+    <div id="nen-contact" style="margin-bottom:10px;border:none">
 
         <div class="container">
             <div class="row">
@@ -111,8 +111,5 @@ use dosamigos\google\maps\Map;
         </div>
     </div>
 
-    <div class="text-center">
-        <p ><a class="btn btn-lg btn-default" style="color:gray;margin-right: 30%;margin-top: -20px" href="/site/index">Vrati Nazad</a></p>
-    </div>
     <span class="clearfix"></span>
 </div>

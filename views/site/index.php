@@ -90,6 +90,10 @@ $this->title = 'LIFE Klub';
 
     <!------------------ end of >> KONTAKT << ------------------->
 
+            <div class="text-center">
+                <p ><a class="btn btn-lg btn-default" style="color:gray;margin-right: 45%;margin-top: -20px" href="/site/index">Vrati Nazad</a></p>
+            </div>
+
         </div><!----end of "row" ----->
 
     </div><!--- end of "contact-index"  ----->
