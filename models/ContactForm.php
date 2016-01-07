@@ -48,13 +48,19 @@ class ContactForm extends Model
     public function contact($email)
     {
         if ($this->validate()) {
-            Yii::$app->mailer->compose()
-                ->setTo($email)
+//            Yii::$app->mailer->compose()
+//                ->setTo($email)
 //                ->setFrom([$this->email => $this->name])
+//                ->setTextBody($this->body)
+//                ->send();
+//
+//            return true;
+            return Yii::$app->mailer->compose()
+                ->setTo($email)
+                ->setFrom($this->email)
+                ->setSubject('')
                 ->setTextBody($this->body)
                 ->send();
-
-            return true;
         }
         return Yii::$app->session->setFlash('error', 'Došlo je do greške prilikom slanja email-a. Molim vas pokušajte ponovo');
     }
