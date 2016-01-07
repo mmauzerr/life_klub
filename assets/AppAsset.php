@@ -26,9 +26,9 @@ class AppAsset extends AssetBundle
     ];
 
     public $js = [
-        'js/jquery.js',
         'js/bootstrap.min.js',
         'js/jcarousel.basic.js',
+        'js/jquery.js',
         'js/jquery.color.js',
 //        'js/jquery-1.3.2.js', // uncomment for full jquery glow
         'js/jquery-glowing.js',
