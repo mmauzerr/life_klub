@@ -57,7 +57,8 @@ class ContactForm extends Model
 //            return true;
             return Yii::$app->mailer->compose()
                 ->setTo($email)
-                ->setFrom($this->email)
+                ->setFrom('sajt-kontakt@lifeklub.rs')
+                ->setReplyTo($this->email)
                 ->setSubject($this->name)
                 ->setTextBody($this->body)
                 ->send();
