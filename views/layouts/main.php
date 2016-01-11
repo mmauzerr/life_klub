@@ -20,6 +20,11 @@ AppAsset::register($this);
 
     <?= Html::csrfMetaTags() ?>
     <meta charset="<?= Yii::$app->charset ?>">
+    <meta name="keywords" content="fitnes klub, fitness club, fitness, fitnes, fitness centar, priprema sportista,
+         trening, treninzi, licni trener, individualni treninzi, joga, joga fitness, streaching, fitness exercise,
+         ženski fitness, women's fitness, zdravlje, sport, sport fitness, 1 na 1, gym, istezanje, rastezanje, vezbe,
+         vezbanje, vežbanje, vežbe, fitness sprave, sprave za vežbanje, vodjeni treninzi, definicija mišića,
+         kondicioni treninzi, zdravlje, višak kilograma">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
