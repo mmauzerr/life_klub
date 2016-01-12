@@ -20,7 +20,10 @@ AppAsset::register($this);
 
     <?= Html::csrfMetaTags() ?>
     <meta charset="<?= Yii::$app->charset ?>">
-    <meta name="keywords" content="fitnes klub, fitness club, fitness, fitnes, fitness centar, priprema sportista,
+    <meta name="description" content="Fitnes klub Life osnovan je 2003 godine. Klub se nalazi na samoj granici
+    novog Beograda i Zemuna i namenjen je pripadnicama lepšeg pola. U našem klubu radi se uz konstantan nadzor instruktora, treninzi su
+         polu-individualnog karaktera ( vežbanje se izvodi u malim grupama ), prilagodjeni prema kondiciji, godinama i zdravstvenom stanju samog vežbača.">
+    <meta name="keywords" content="fitnes klub, fitness club, fitnes klub beograd, beograd, fitness, fitnes, fitness centar, priprema sportista,
          trening, treninzi, licni trener, individualni treninzi, joga, joga fitness, streaching, fitness exercise,
          ženski fitness, women's fitness, zdravlje, sport, sport fitness, 1 na 1, gym, istezanje, rastezanje, vezbe,
          vezbanje, vežbanje, vežbe, fitness sprave, sprave za vežbanje, vodjeni treninzi, definicija mišića,
