@@ -106,7 +106,11 @@ AppAsset::register($this);
         </div>
     </div>
 </footer>
-
+<script>
+    $(document).on('click',function(){
+        $('.collapse').collapse('hide');
+    })
+</script>
 <?php $this->endBody() ?>
 </body>
 </html>
