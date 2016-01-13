@@ -465,7 +465,7 @@ left: 0;
     }
     .navbar-toggle :hover {
         margin-top: 9px;
-        margin-right: 14px;
+        margin-right: 13px;
         margin-bottom: 7px;
         /*background-color: #6a6a6a;*/
         background-image: url("/images/shaded_dot.png");
