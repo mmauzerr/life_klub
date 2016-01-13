@@ -443,8 +443,14 @@ left: 0;
 /* Custom, iPhone Retina - xs <768 */
 @media only screen  and (max-width:767px) {
     p{
-        font-size: 10px;
-        font-style: normal;
+        font-size: 1em;
+    }
+    .moto h2 {
+        text-align: center;
+        font-size: 1.0em;
+        margin-top: -7px;
+        padding: 3px 2px;
+        color: #7b7b7b;
     }
     .carousel {display:none;}
     .navbar-toggle { background-color: #3c3c3c;}
