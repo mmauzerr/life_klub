@@ -445,10 +445,16 @@ left: 0;
     p{
         font-size: 1em;
     }
+    .moto {
+        background: url("/images/moto1.png")no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+        padding: 6% 21%;
+    }
     .moto h2 {
         text-align: center;
         font-size: 1.0em;
-        margin-top: -7px;
+        margin-top: 4px;
         padding: 3px 2px;
         color: #7b7b7b;
     }
