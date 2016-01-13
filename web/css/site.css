@@ -454,12 +454,16 @@ left: 0;
     .moto h2 {
         text-align: center;
         font-size: 1.0em;
-        margin-top: 4px;
+        margin-top: 10px;
         padding: 3px 2px;
         color: #7b7b7b;
     }
     .carousel {display:none;}
 
+    #nen-uvod {
+        padding: 6%;
+        z-index: -5;
+    }
     .navbar-toggle {
         position: relative;
         float: right;
