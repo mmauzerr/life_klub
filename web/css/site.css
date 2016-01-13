@@ -459,16 +459,18 @@ left: 0;
         margin-right: 15px;
         margin-bottom: 8px;
         background-color: #2a2a2a;
-        border: 1px solid #161616;
-        border-radius: 1px;
+        background-image: url("/images/shaded_dot.png");
+        border: 1px solid rgba(22, 22, 22, 0.78);
+        border-radius: 4px;
     }
-    .navbar-toggle :hover {
+    .navbar-toggle :focus {
         margin-top: 9px;
         margin-right: 14px;
         margin-bottom: 7px;
-        background-color: #3b3b3b;
-        border: 1px solid #808080;
-        border-radius: 1px;
+        background-color: #6a6a6a;
+        background-image: url("/images/shaded_dot.png");
+        border: 1px solid #191919;
+        border-radius: 4px;
     }
     .vezbanje img {
         display: none;
