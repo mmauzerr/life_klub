@@ -446,16 +446,10 @@ left: 0;
     .navbar-brand > img {
         display: none;
     }
-    .show-hide-contact-bar, .contact-button-link.show-hide-contact-bar:focus, .contact-button-link.show-hide-contact-bar:active {
+    #contact-buttons-bar {
         position: absolute;
         top: 0;
         left:50%;
-        color: #000;
-        text-shadow: 0px 0px 2px white;
-        border: 0;
-        outline: 0;
-        padding: 0;
-        width: 40px;
     }
     .banner img {
         width: 100%;
