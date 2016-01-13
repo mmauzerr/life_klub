@@ -448,8 +448,8 @@ left: 0;
     .blueimp-gallery>.indicator>li {
         display: none!important;
     }
-        .buttons {
-        display: none!important;
+    .buttons {
+        /*display: none!important;*/
     }
     .vezbanje img {
         display: none;
