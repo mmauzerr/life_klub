@@ -446,8 +446,11 @@ left: 0;
     .navbar-brand > img {
         display: none;
     }
-    #contact-buttons-bar {
+    #contact-buttons-bar, .vezbanje {
        display: none;
+    }
+    .site-uvod> .buttons{
+        margin: 0;
     }
     .banner img {
         width: 100%;
