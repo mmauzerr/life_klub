@@ -442,8 +442,12 @@ left: 0;
 /******************* responsive site settings **********************/
 /* Custom, iPhone Retina - xs <768 */
 @media only screen  and (max-width:767px) {
+    p{
+        font-size: 10px;
+        font-style: normal;
+    }
     .carousel {display:none;}
-    .navbar-toggle { background-image: url('/images/shaded_dot.png');}
+    .navbar-toggle { background-color: #3c3c3c;}
     .navbar-toggle .icon-bar { display: none;}
     /*#TopLogo {display:block}*/
     /*#TopLogo .small-logo {display:none}*/
