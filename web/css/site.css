@@ -449,7 +449,7 @@ left: 0;
         background: url("/images/moto1.png")no-repeat;
         background-size: 100% 100%;
         position: relative;
-        padding: 6% 11%;
+        padding: 6% 27%;
     }
     .moto h2 {
         text-align: center;
@@ -464,6 +464,11 @@ left: 0;
     #nen-uvod {
         padding: 6%;
         z-index: -5;
+    }
+    #nen-uvod p {
+        color: #c6c6c6;
+        font-size: 0.7em;
+        text-shadow: none;
     }
     .navbar-toggle {
         position: relative;
