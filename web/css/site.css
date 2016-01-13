@@ -467,11 +467,10 @@ left: 0;
     }
     #nen-uvod p {
         color: #c6c6c6;
-        /*padding-right: 0;*/
         font-size: 0.7em;
         text-shadow: none;
     }
-    #nen-uvod img {
+    .vezbanje img {
         display: none;
     }
 
