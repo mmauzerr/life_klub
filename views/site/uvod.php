@@ -51,9 +51,11 @@ use yii\helpers\Html;
             ]]) ?>
         </div>
     </div>
-    <div class="buttons">
-        <div class="text-center" >
-            <p ><a class="btn btn-lg btn-default" style=" position:absolute;margin-top:56%;margin-left: -15%;color:gray" href="/site/index"> Nazad</a></p>
+    <div id="uvod-button">
+        <div class="buttons">
+            <div class="text-center" >
+                <p ><a class="btn btn-lg btn-default" style=" position:absolute;margin-top:56%;margin-left: -15%;color:gray" href="/site/index"> Nazad</a></p>
+            </div>
         </div>
     </div>
 </div>

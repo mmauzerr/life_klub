@@ -483,16 +483,20 @@ left: 0;
     #nen-uvod p {
         color: #c6c6c6;
         padding-right: 0;
-        font-size: 0.7em;
+        font-size: 1em;
         text-shadow: none;
     }
+
     .vezbanje img {
         display: none;
     }
-
+    #uvod-button {
+        margin-top: -20px;
+        width: 50px;
+    }
     .text-correction {
         padding: 6%;
-        font-size: 0.7em;
+        font-size: 1em;
     }
     .navbar-toggle {
         position: relative;
