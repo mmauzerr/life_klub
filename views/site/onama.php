@@ -19,7 +19,7 @@ use yii\helpers\Html;
                         bučica i ostalih rekvizita za fitnes.<br /><br /><br />
                     <div class="onama_program">
                         <div class="pull-left" style="margin-left: 6%; margin-top: -30px ">
-                               <p style="margin-left: -80px"> Program vodjenog treninga obuhvata :</p>
+                               <p id="onama-corect" style="margin-left: -80px"> Program vodjenog treninga obuhvata :</p>
                                 <br /><br />
                                 <div style="margin: -25% 0 10px 40px"><br />
                                     - Program mršavljenja <br />
