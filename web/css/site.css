@@ -490,6 +490,10 @@ left: 0;
         display: none;
     }
 
+    #contact-buttons-bar{
+        padding: 6%;
+        font-size: 0.7em;
+    }
     .navbar-toggle {
         position: relative;
         float: right;
