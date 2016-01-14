@@ -490,7 +490,7 @@ left: 0;
         display: none;
     }
 
-    #contact-buttons-bar{
+    .text-correction {
         padding: 6%;
         font-size: 0.7em;
     }
