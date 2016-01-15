@@ -63,12 +63,12 @@ use yii\helpers\Html;
                 ]]) ?><br />
             </div>
         </div>
-
-        <div class="buttons">
-            <div class="text-center" style="margin-left: 54%;margin-top:-12%;margin-bottom: 10%">
-                <p ><a class="btn btn-lg btn-default" style="color:gray" href="/site/index"> Nazad</a></p>
+        <div class="prog-button">
+            <div class="buttons">
+                <div class="text-center" style="margin-left: 54%;margin-top:-12%;margin-bottom: 10%">
+                    <p ><a class="btn btn-lg btn-default" style="color:gray" href="/site/index"> Nazad</a></p>
+                </div>
             </div>
         </div>
-
     </div>
 </div>

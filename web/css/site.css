@@ -444,7 +444,7 @@ left: 0;
 @media only screen  and (max-width:767px) {
 
     .navbar-brand > img {
-        display: none;
+        display: block;
     }
 
     .text-correction {
@@ -603,9 +603,9 @@ left: 0;
         padding: 0!important;
     }
 
-    .site-programi > .buttons {
-        margin-left: -2%!important;
-        margin-top: -19%!important;
+    .prog-button > .buttons{
+        margin-left: -101%!important;
+        margin-top: 6%!important;
         margin-bottom: 1%!important;
     }
 
