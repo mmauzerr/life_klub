@@ -522,21 +522,92 @@ left: 0;
     .par2 img{
         display: none;
     }
+
+    #instruktori hr{
+        width: 100%!important;
+    }
+
+    #instruktori h2 {
+        text-align: center!important;
+    }
+
+    .inst-maja {
+        border-radius: 2px;
+        border: none;
+        box-shadow: none;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        padding: 9% 10% 4% 5%;
+        float: left;
+        font-size: 1em;
+        text-align: center;
+        width: 66%;
+    }
+
+    .inst-bane {
+        border-radius: 2px;
+        border: none;
+        box-shadow: none;
+        margin: 2% -9% 2% 0;
+        padding: 8% 5% 2% 9%!important;
+        float: right;
+        font-size: 1em;
+        text-align: center;
+        width: 70%;
+    }
+
+    .inst-bane hr {
+        display: none;
+    }
+
+    #instruktori> .buttons{
+        margin-right: 68px!important;
+        margin-top: -42px;
+        padding-bottom: 60px;
+    }
+
+    .maja-poz {
+        margin-bottom: -58px;
+    }
+
+    .maja-img img {
+        margin-top: -121%;
+        margin-left: 54%;
+        width: 52%!important;
+    }
+
+    .bane-img img {
+        margin-top: -90%;
+        margin-left: -7%;
+        width: 50%!important;
+    }
+
+    .galery img {
+        padding: 5px;
+    }
+
+    .tribal img {
+        width: 70%!important;
+    }
+
     .programi {
         font-size: 0.9em;
         margin-top: 10%;
         margin-left: -10%;
-        padding: 15% 10% 10% 10%;
+        padding: 15% 10% 16% 10%;
         text-align: justify;
         text-indent: 2%;
     }
 
     .programi p {
         padding: 0!important;
-        /*margin: 0!important;*/
     }
 
-    .programi > .buttons {margin-top: 20px!important;}
+    .site-programi > .buttons {
+        margin-left: -2%!important;
+        margin-top: -19%!important;
+        margin-bottom: 1%!important;
+    }
 
     .vezbanje_2 img {display: none}
 
