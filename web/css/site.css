@@ -453,6 +453,8 @@ left: 0;
         font-size: 1em;
     }
 
+    .blueimp-gallery>.indicator>li {display: none!important;}
+
     #contact-buttons-bar, .vezbanje {
         display: none;
     }
@@ -614,7 +616,7 @@ left: 0;
     #map-button{margin-left: 200px!important;}
 
 
-    #vrati-button{
+    #vrati-button {
         margin-top: 10%;
         margin-left: 30%!important;
     }
@@ -630,10 +632,6 @@ left: 0;
         background-image: none;
         border: 1px solid transparent;
         border-radius: 4px;
-    }
-
-    .navbar-toggle .icon-bar {
-        display: none;
     }
 }
 /* Extra Small Devices, Phones */
