@@ -98,10 +98,7 @@ AppAsset::register($this);
 
 <footer class="footer">
     <div class="container">
-
-
         <div class="text-center">
-
             <p style="color: #8c8c8c;margin-top: 10px">&copy; LIFE Klub <?= date('Y') ?></p>
         </div>
     </div>
