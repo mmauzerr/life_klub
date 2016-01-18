@@ -611,6 +611,14 @@ left: 0;
 
     .vezbanje_2 img {display: none}
 
+    #map-button{margin-left: 200px!important;}
+
+
+    #vrati-button{
+        margin-top: 10%;
+        margin-left: 30%!important;
+    }
+
     .navbar-toggle {
         position: relative;
         float: right;

@@ -18,38 +18,39 @@ use dosamigos\google\maps\Map;
 
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
-                    <div class="contact-map" id="map-canvas" style="border: 1px solid #a3a3a3;">
-                        <?php
+                <div class="col-md-8 location">
 
-                        $coord = new LatLng(['lat' => 44.834209, 'lng' => 20.414084]);
-                        $map = new Map([
-                            'center' => $coord,
-                            'zoom' => 16,
-                            'width' => 'auto',
-                            'height' => 430
-                        ]);
+                        <div class="contact-map" id="map-canvas" style="border: 1px solid #a3a3a3;">
+                                <?php
 
-                        $home = new LatLng(['lat' =>  44.833513, 'lng' => 20.409160]);
-                        //       $map->appendScript($directionsService->getJs());
+                            $coord = new LatLng(['lat' => 44.834209, 'lng' => 20.414084]);
+                            $map = new Map([
+                                'center' => $coord,
+                                'zoom' => 16,
+                                'width' => 'auto',
+                                'height' => 430
+                            ]);
 
-                        $marker = new Marker([
-                            'position' => $coord,
-                            'title' => 'Life Fitnes Centar',
+                            $home = new LatLng(['lat' =>  44.833513, 'lng' => 20.409160]);
+                            //       $map->appendScript($directionsService->getJs());
 
-                        ]);
+                            $marker = new Marker([
+                                'position' => $coord,
+                                'title' => 'Life Fitnes Centar',
 
-                        $marker->attachInfoWindow(
-                            new InfoWindow([
-                                'content' => '<img border="0" align="center" src="/images/objekat.jpg" width="222">'
-                            ])
-                        );
-                        $map->addOverlay($marker);?>
-                        <?php
+                            ]);
 
-                        echo $map->display();?>
+                            $marker->attachInfoWindow(
+                                new InfoWindow([
+                                    'content' => '<img border="0" align="center" src="/images/objekat.jpg" width="222">'
+                                ])
+                            );
+                            $map->addOverlay($marker);?>
+                            <?php
 
-                    </div>
+                            echo $map->display();?>
+
+                        </div>
                     <div class="clearfix"></div>
                 </div>
                 <div class="col-md-4 contact_right" style="margin-top: 10px">
@@ -93,7 +94,7 @@ use dosamigos\google\maps\Map;
 
                                     <div class="form-group" style="margin-right: -60%">
                                         <?= Html::submitButton('Posalji', ['class' => 'btn btn-default', 'name' => 'contact-button']) ?>
-                                        <div style="margin-left: 295px;margin-top: -35px">
+                                        <div id="map-button" style="margin-left: 295px;margin-top: -35px">
                                             <?= Html::resetButton('Obrisi', ['class' => 'btn btn-default', 'name' => 'reset-button']) ?>
                                         </div>
                                     </div>
