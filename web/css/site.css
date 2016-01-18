@@ -615,6 +615,13 @@ left: 0;
 
     #map-button{margin-left: 200px!important;}
 
+    #gmap0-map-canvas {
+        height: 300px!important;
+    }
+
+    .location {
+        margin-bottom: 40px;
+    }
 
     #vrati-button {
         margin-top: 10%;
