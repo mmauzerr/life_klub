@@ -95,7 +95,11 @@ AppAsset::register($this);
         <?= $content ?>
     </div>
 </div>
-
+<div class="facebook-mob">
+    <a href="https://www.facebook.com/Fitnes-klub-life-182105238491309/?fref=ts"
+       title="Pratite nas na Facebook-u"
+       target="_blank"><span class="fa fa-facebook" style="color: white;font-size: 1.2em"></span></a>
+</div>
 <footer class="footer">
     <div class="container">
         <div class="text-center">

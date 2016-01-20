@@ -394,7 +394,7 @@ left: 0;
 
 .bane-poz {
     background: transparent;
-    height: 350px;
+    height: 310px;
 }
 
 .inst-maja {
@@ -445,6 +445,20 @@ left: 0;
 
     .navbar-brand > img {
         display: block;
+    }
+
+    .facebook-mob {
+        background-color: #3b5998;
+        position: absolute;
+        display: block;
+        text-align: center;
+        padding: 6px 2px;
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+        top: 15px;
+        left: 72%;
+        z-index: 1998;
     }
 
     .text-correction {
@@ -567,7 +581,6 @@ left: 0;
 
     #instruktori> .buttons{
         margin-right: 68px!important;
-        margin-top: -42px;
         padding-bottom: 60px;
     }
 
