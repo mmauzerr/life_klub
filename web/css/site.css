@@ -449,15 +449,14 @@ left: 0;
 
     .facebook-mob {
         background-color: #3b5998;
-        position: absolute;
-        display: block;
+        position: fixed;
         text-align: center;
         padding: 6px 2px;
         border-radius: 4px;
         width: 30px;
         height: 30px;
-        top: 15px;
-        left: 72%;
+        margin-top: 15px;
+        margin-left: 72%;
         z-index: 1998;
     }
 
