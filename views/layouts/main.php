@@ -9,6 +9,7 @@ use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
 use app\assets\AppAsset;
 
+
 AppAsset::register($this);
 
 ?>
@@ -30,13 +31,13 @@ AppAsset::register($this);
          kondicioni treninzi, zdravlje, višak kilograma">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="shortcut icon" href="/logo_sm.ico" type="image/x-icon" />
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Francois One">
     <link href='http://fonts.googleapis.com/css?family=Black+Ops+One|Luckiest+Guy|Sonsie+One|Shojumaru&effect=3d|3d-float|anaglyph|brick-sign|canvas-print|
           crackle|decaying|destruction|distressed|distressed-wood|emboss|fire|fire-animation|fragile|grass|ice|mitosis|neon|outline|putting-green|
-          scuffed-steel|shadow-multiple|splintered|static|stonewash|vintage|wallpaper'' rel='stylesheet' type='text/css'>
-    <link rel="shortcut icon" href="/images/logo_sm.ico">
+          scuffed-steel|shadow-multiple|splintered|static|stonewash|vintage|wallpaper' rel='stylesheet' type='text/css'>
 
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
