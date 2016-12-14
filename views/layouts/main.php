@@ -39,7 +39,7 @@ AppAsset::register($this);
           crackle|decaying|destruction|distressed|distressed-wood|emboss|fire|fire-animation|fragile|grass|ice|mitosis|neon|outline|putting-green|
           scuffed-steel|shadow-multiple|splintered|static|stonewash|vintage|wallpaper' rel='stylesheet' type='text/css'>
 
-    <title><?= Html::encode($this->title) ?></title>
+    <title><?= Html::encode( $this->title) ?></title>
     <?php $this->head() ?>
     <script type="text/javascript">
         $(document).ready(function() {
